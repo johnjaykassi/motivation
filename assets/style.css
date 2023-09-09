@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 a{
+    font-size: 4rem;
+    margin-left: 100px;
+    color: white;
+}
+nav{
+    margin-right: 30px;
+    padding-right: 40px;
+}
+
+nav a{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    color: white;
+}
+a:hover{
+    color: orangered;
+}
+
+#indexSection{
+    height: 250px;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.acceuil-photos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px; 
+}
+
+main h1{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.sectioncontact{
+    padding: 300px;
+    background: url("../assets/img/Untitled\ design\ \(19\).png") no-repeat;
+}
+
+#photo{
+    
+}
+#photo-motivation{
+    width: 100%;
+    margin: 0 auto;
+}
+.gallery-photos{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-column: ;
+    gap: 20px;
+    grid-row: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+#paragraphe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#paragraphe p{
+    color: white;
+    width: 50%;
+}
+form{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+input{
+    font-size: 20px;
+}
+
+footer{
+    background-color: orangered;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-family: sans-serif;
+
+}
